@@ -1,13 +1,14 @@
-const firebase = require("firebase");
+const firebase = require("firebase/compat/app");
+require("firebase/compat/firestore");
 const firebaseConfig = {
-    apiKey: "AIzaSyAcVQ83wcGc15JnrDoktdMJnNFC98OLkG4",
-    authDomain: "nodecrud-76919.firebaseapp.com",
-    projectId: "nodecrud-76919",
-    storageBucket: "nodecrud-76919.appspot.com",
-    messagingSenderId: "169106314867",
-    appId: "1:169106314867:web:86f8200dab681f7bb33c06",
-    measurementId: "G-8JTW5LJVYJ"
-  };
+  apiKey: "AIzaSyB3blqj0-inaeJipZ7F00BDLpNHpduUhow",
+  authDomain: "nodetest-ea322.firebaseapp.com",
+  projectId: "nodetest-ea322",
+  storageBucket: "nodetest-ea322.appspot.com",
+  messagingSenderId: "1056683302238",
+  appId: "1:1056683302238:web:6aed792d3ab007515d43cf",
+  measurementId: "G-3YXVN0HHWB"
+};
   
   
 firebase.initializeApp(firebaseConfig);
